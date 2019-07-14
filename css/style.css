@@ -47,11 +47,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-right: 2px solid #eaea00;
 }
 
-.top-bar .social i
+.top-bar .social a:hover
 {
-    padding-left: 5px;
-    padding-right: 12px;
-    font-size: 18px;
+    color: white;
+}
+
+.top-bar .social span:hover
+{
+    color: white;
 }
 
 .top-bar .social a:last-child
@@ -59,11 +62,28 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-right: 0;
 }
 
+.top-bar .social i
+{
+    padding-left: 5px;
+    padding-right: 12px;
+    font-size: 18px;
+}
+
+
 .nav-bar
 {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: black;
+    /* position: fixed;
+    width: 100%;
+    transition: 0.3s;
+    z-index: 2; */
+}
+
+.scroll-nav-change{
+    background-color: #171717;
+    top: 0;
 }
 
 .nav-bar .logo a 
@@ -89,8 +109,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .nav-bar .navi ul li
 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .nav-bar .navi ul li a
@@ -110,6 +130,71 @@ h1, h2, h3, h4, h5, h6, p, ul {
 {
     color: yellow;
 }
+
+.about
+{
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.about .back h1
+{
+    font-size: 145px;
+    color: #ccc;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
