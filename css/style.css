@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .nav-bar .navi 
 {
-    padding-top: 7px;
+    padding-top: 3px;
 }
 
 .nav-bar .navi ul
@@ -112,3 +112,64 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 
+
+
+
+
+
+@media only screen and (max-width: 1920px)
+{
+
+}
+
+@media only screen and (max-width: 1366px)
+{
+
+}
+
+@media only screen and (max-width: 1240px)
+{
+
+}
+
+@media only screen and (max-width: 768px)
+{
+    .nav-bar .logo a
+    {
+        font-size: 20px;
+    }
+
+    .nav-bar .navi ul li a
+    {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-bar .navi
+    {
+        display: none;
+    }
+
+    .top-bar
+    {
+        display: none;
+    }
+
+    .nav-bar .logo a
+    {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 412px)
+{
+
+}
+
+@media only screen and (max-width: 375px)
+{
+
+}
