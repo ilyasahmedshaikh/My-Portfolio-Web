@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: black;
+    background-color: silver;
 }
 
 .top-bar .social
@@ -34,17 +34,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .top-bar .social a
 {
-    color: yellow;
+    color: black;
     text-decoration: none;
 }
 
 .top-bar .social span{
-    color: yellow;
+    color: black;
 }
 
 .top-bar .social a
 {
-    border-right: 2px solid silver;
+    border-right: 2px solid white;
 }
 
 .top-bar .social i
@@ -59,3 +59,41 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-right: 0;
 }
 
+.nav-bar
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: black;
+}
+
+.nav-bar .logo a 
+{
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.nav-bar .navi 
+{
+    padding-top: 7px;
+}
+
+.nav-bar .navi ul
+{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    float: right;
+}
+
+.nav-bar .navi ul li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-bar .navi ul li a
+{
+    
+}
