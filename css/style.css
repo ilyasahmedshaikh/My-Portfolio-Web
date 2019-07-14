@@ -143,6 +143,18 @@ h1, h2, h3, h4, h5, h6, p, ul {
     position: absolute;
 }
 
+.about .image
+{
+    text-align: center;
+}
+
+.about .image img
+{
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+}
+
 .about .text
 {
     padding: 0 0 0 36px;
