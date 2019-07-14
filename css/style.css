@@ -133,17 +133,33 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .about
 {
-    padding-top: 90px;
-    padding-bottom: 70px;
+    padding: 50px 0 50px 0;
 }
 
-.about .back h1
+.about h1.back
 {
-    font-size: 145px;
+    font-size: 150px;
     color: #ccc;
     position: absolute;
 }
 
+.about .text
+{
+    padding: 0 0 0 36px;
+}
+
+.about .text .head
+{
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.about .text p
+{
+    margin-bottom: 16px;
+    color: #212529;
+    font-size: 16px;
+}
 
 
 
