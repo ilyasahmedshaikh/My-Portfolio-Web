@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: silver;
+    background-color: #ffff00;
 }
 
 .top-bar .social
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .top-bar .social a
 {
-    border-right: 2px solid white;
+    border-right: 2px solid #eaea00;
 }
 
 .top-bar .social i
@@ -95,5 +95,20 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .nav-bar .navi ul li a
 {
-    
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
 }
+
+.nav-bar .navi .active
+{
+    color: yellow;
+}
+
+.nav-bar .navi ul li a:hover
+{
+    color: yellow;
+}
+
+
