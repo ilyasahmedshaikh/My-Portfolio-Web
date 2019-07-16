@@ -338,13 +338,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .contact
 {
-    padding: 10px 0 10px 0;
+
 }
 
 .contact .cont
 {
     padding: 20px 0 20px 0;
     background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .contact .cont p
@@ -354,7 +356,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .contact .cont i
 {
-    
+    padding-right: 12px;
+    font-size: 18px;
 }
 
 
