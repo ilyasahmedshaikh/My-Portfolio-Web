@@ -9,6 +9,11 @@ body
     font-family: 'Open Sans', sans-serif;
 }
 
+a
+{
+    text-decoration: none !important;
+}
+
 h1, h2, h3, h4, h5, h6, p, ul {
     margin-bottom: 0;
 }
@@ -249,6 +254,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: #828282;
 }
 
+.portfolio .port-right .box
+{
+    margin: 15px 0 15px 0;
+}
+
 .portfolio .inner
 {
     transition: 0.3s;
@@ -258,6 +268,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .portfolio .inner .head-sec
 {
     padding: 10px 0 10px 0;
+    border-radius: 7px 7px 0 0;
 }
 
 .portfolio .inner span
@@ -338,26 +349,49 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .contact
 {
-
+    background-color: black;
+    padding: 30px 0 30px 0;
 }
 
 .contact .cont
 {
-    padding: 20px 0 20px 0;
-    background-color: black;
-    color: white;
     text-align: center;
 }
 
 .contact .cont p
 {
-    
+    color: white;
+    font-size: 17px;
 }
 
 .contact .cont i
 {
     padding-right: 12px;
+    font-size: 20px;
+}
+
+.reserved
+{
+    padding: 12px 0 12px 0;
+    background-color: yellow;
+}
+
+.reserved .copy
+{
+    text-align: center;
+}
+
+.reserved .copy p
+{
+    font-size: 16px;
+    color: black;
+}
+
+.reserved .copy i
+{
     font-size: 18px;
+    padding-right: 6px;
+    color: black;
 }
 
 
