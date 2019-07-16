@@ -213,37 +213,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .portfolio .front-section
 {
     position: relative;
-    top: 85px;
+    top: 90px;
 }
 
-/* .portfolio .img
-{
-
-} */
-
-.portfolio a
-{
-    text-decoration: none;
-}
-
-.portfolio .box .inner
-{
-    padding: 70px 30px 60px 30px;
-    margin-bottom: 30px;
-}
-
-.portfolio .inner h6
-{
-    margin-bottom: 0px;
-    font-size: 20px;
-}
-
-.portfolio .inner p
-{
-    padding-top: 30px;
-}
-
-.portfolio .inner .line
+.portfolio .port-left .line
 {
     width: 33px;
     height: 2px;
@@ -252,24 +225,96 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-top: 22px;
 }
 
-.portfolio .box .inner:hover
+.portfolio .port-left h1
 {
-    /* padding: 70px 30px 60px 30px; */
-    border: 1px solid blue;
-    border-radius: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: black;
 }
 
+.portfolio .port-left h2
+{
+    margin-bottom: 0px;
+    font-size: 23px;
+    color: black;
+}
 
+.portfolio .port-left p
+{
+    padding-top: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #828282;
+}
 
+.portfolio .inner
+{
+    transition: 0.3s;
+    border-radius: 7px;
+}
 
+.portfolio .inner .head-sec
+{
+    padding: 10px 0 10px 0;
+}
 
+.portfolio .inner i
+{
+    font-size: 35px;
+    color: black;
+    padding-left: 15px;
+}
 
+.portfolio .inner h3
+{
+    font-size: 17px;
+    color: black;
+    margin-bottom: 0px;
+}
 
+.portfolio .inner p
+{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #828282;
+}
 
+.portfolio .inner .line
+{
+    width: 33px;
+    height: 2px;
+    background: #eea739;
+    left: 20px;
+    margin-bottom: 30px;
+    margin-top: 22px;
+}
 
+.portfolio .inner .content
+{
+    padding: 0 15px 15px 15px;
+}
 
+.portfolio .inner:hover
+{
+    background: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+    position: relative;
+    top: -10px;
+}
 
+.portfolio .inner:hover .head-sec {
+    background-color: #eea739;
+}
+
+.portfolio .inner:hover .head-sec i {
+    color: #fff;
+}
+
+.port-left
+{
+    position: absolute;
+    top: 50%;
+}
 
 
 
