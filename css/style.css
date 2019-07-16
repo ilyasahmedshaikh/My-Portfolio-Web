@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding: 10px 0 10px 0;
 }
 
-.portfolio .inner i
+.portfolio .inner span
 {
     font-size: 35px;
     color: black;
@@ -306,14 +306,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-color: #eea739;
 }
 
-.portfolio .inner:hover .head-sec i {
+.portfolio .inner:hover .head-sec span 
+{
     color: #fff;
 }
 
 .port-left
 {
     position: absolute;
-    top: 50%;
+    top: 25%;
 }
 
 
