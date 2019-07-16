@@ -6,6 +6,14 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+// Smart Backspacing
+var typed = new Typed('#typed', {
+  smartBackspace: true, // Default value
+  typeSpeed: 70,
+  loop: true,
+  stringsElement: '#typed-strings'
+});
+
 // slider-carousel
 $('.slider-carousel').slick({
   dots: false,
