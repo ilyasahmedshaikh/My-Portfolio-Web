@@ -228,6 +228,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .portfolio .port-left h1
 {
     margin-bottom: 0px;
+    text-decoration: none;
     font-size: 50px;
     color: black;
 }
@@ -236,6 +237,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 {
     margin-bottom: 0px;
     font-size: 23px;
+    text-decoration: none;
     color: black;
 }
 
@@ -262,6 +264,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 {
     font-size: 35px;
     color: black;
+    text-decoration: none;
     padding-left: 15px;
 }
 
@@ -269,6 +272,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 {
     font-size: 17px;
     color: black;
+    text-decoration: none;
     margin-bottom: 0px;
 }
 
@@ -285,13 +289,28 @@ h1, h2, h3, h4, h5, h6, p, ul {
     height: 2px;
     background: #eea739;
     left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
     margin-top: 22px;
 }
 
 .portfolio .inner .content
 {
     padding: 0 15px 15px 15px;
+}
+
+.portfolio .inner .button
+{
+
+}
+
+.portfolio .inner .button p
+{
+    
+}
+
+.portfolio .inner .button i
+{
+    
 }
 
 .portfolio .inner:hover
@@ -306,7 +325,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background-color: #eea739;
 }
 
-.portfolio .inner:hover .head-sec span 
+.portfolio .inner:hover .head-sec span
 {
     color: #fff;
 }
@@ -317,8 +336,26 @@ h1, h2, h3, h4, h5, h6, p, ul {
     top: 25%;
 }
 
+.contact
+{
+    padding: 10px 0 10px 0;
+}
 
+.contact .cont
+{
+    padding: 20px 0 20px 0;
+    background-color: black;
+}
 
+.contact .cont p
+{
+    
+}
+
+.contact .cont i
+{
+    
+}
 
 
 
