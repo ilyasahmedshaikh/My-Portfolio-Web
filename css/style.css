@@ -74,21 +74,19 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-size: 18px;
 }
 
-
 .nav-bar
 {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: black;
-    /* position: fixed;
-    width: 100%;
-    transition: 0.3s;
-    z-index: 2; */
 }
 
 .scroll-nav-change{
     background-color: #171717;
+    position: fixed;
     top: 0px;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-bar .logo a 
@@ -141,34 +139,54 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: yellow;
 }
 
+.banner
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+}
+
 .home
 {
     padding: 5% 0;
-    background-color: white;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
 }
 
 .home .left-side
 {
-    
+    padding: 15% 0 0 8%;
 }
 
 .home .left-side h2
 {
     font-size: 40px;
-    color: #212529;
+    padding: 0 0 15px 0;
+    color: #ffff;
     font-weight: 100;
     margin-bottom: 0;
+}
+
+.home .left-side h2 span
+{
+    font-size: 40px;
+    color: yellow;
+    font-weight: 500;
+    padding: 0 0px 0 5px;
 }
 
 .home .left-side span
 {
     font-size: 25px;
-    color: #888888;
+    color: #ffff;
 }
 
 .home .left-side .skill
 {
-    padding: 10px 0 5px 0;
+    padding: 20px 0 5px 0;
+    margin: 0 0 0 -15px;
 }
 
 .home .left-side .skill ul
@@ -181,8 +199,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .home .left-side .skill ul li
 {
-    padding: 0 5px 0 5px;
-    border-right: 1px solid #e4e4e4;
+    padding: 0 15px 0 15px;
+    border-right: 1px solid #7b7b7b;
 }
 
 .home .left-side .skill ul li:last-child
@@ -192,7 +210,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .home .left-side .skill ul li a
 {
-    color: #212529;
+    color: yellow;
     font-size: 16px;
 }
 
