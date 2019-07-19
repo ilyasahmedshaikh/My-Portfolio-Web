@@ -141,6 +141,73 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: yellow;
 }
 
+.home
+{
+    padding: 5% 0;
+    background-color: white;
+}
+
+.home .left-side
+{
+    
+}
+
+.home .left-side h2
+{
+    font-size: 40px;
+    color: #212529;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.home .left-side span
+{
+    font-size: 25px;
+    color: #888888;
+}
+
+.home .left-side .skill
+{
+    padding: 10px 0 5px 0;
+}
+
+.home .left-side .skill ul
+{
+    display: flex;
+    margin-bottom: 0px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.home .left-side .skill ul li
+{
+    padding: 0 5px 0 5px;
+    border-right: 1px solid #e4e4e4;
+}
+
+.home .left-side .skill ul li:last-child
+{
+    border-right: 0;
+}
+
+.home .left-side .skill ul li a
+{
+    color: #212529;
+    font-size: 16px;
+}
+
+.home .left-side .img-skill
+{
+    padding: 10px 0 10px 0;
+}
+
+.home .left-side .img-skill img
+{
+    width: 40px;
+    height: auto;
+    margin: 0 5px 0 5px;
+}
+
 .about
 {
     padding: 50px 0 200px 0;
