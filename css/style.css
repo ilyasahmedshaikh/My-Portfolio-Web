@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     transform: translate(-50%, -50%);
 }
 
-.top-bar
+/* .top-bar
 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding-left: 5px;
     padding-right: 12px;
     font-size: 18px;
-}
+} */
 
 .nav-bar
 {
@@ -211,6 +211,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .home .left-side .skill ul li a
 {
     color: yellow;
+    font-weight: 400;
     font-size: 16px;
 }
 
@@ -436,6 +437,23 @@ h1, h2, h3, h4, h5, h6, p, ul {
 {
     background-color: black;
     padding: 30px 0 30px 0;
+}
+
+.contact .one
+{
+
+}
+
+.contact .one a
+{
+    border-right: 2px solid #656565;
+}
+
+.contact .one i
+{
+    color: #fff;
+    padding: 0 8px 0 8px;
+    font-size: 20px;
 }
 
 .contact .cont
